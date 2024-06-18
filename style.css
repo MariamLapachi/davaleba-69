@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8EFFC;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #86939E;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 6;
+}    
+
+h1 {
+    top:100.75px;
+    position: absolute;
+}
+
+.box1 {
+    width:296.55px;
+    height:354.21px;
+    top:200.04px;
+    left:135.47px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.box2 {
+    width:296.55px;
+    height:354.21px;
+    top:200.04px;
+    left:456.73px;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    z-index: 3;
+}
+
+.box3 {
+    width:296.55px;
+    height:354.21px;
+    top:200.04px;
+    left:777.99px;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    z-index: 5;
+}
+
+h2 {
+    margin: 10px 80px;
+}
+
+.text1 {
+    margin: 10px 15px;
+}
+
+.childbox {
+    margin-top: 25px;
+    margin-left: 0px;
+    color: #86939E;
+    border: solid #E1E8EE;
+}
+
+.childbox2 {
+    margin-top: 60px;
+    color: #86939E;
+    border: solid #E1E8EE;
+}
+
+.childbox3 {
+    margin-top: 40px;
+    color: #86939E;
+    border: solid #E1E8EE;
+}
+
+input {
+    width: 247.12px;
+    height: 49.42px;
+    background-color: #7DC855;
+    margin-top: 20px;
+    border: #7DC855;
+    color: white;
+    border-radius: 5px;
+}
+
+.free {
+    margin-left: 10px;
+    color: #7DC855 ;
+}
+
+.details {
+    margin-top: 15px;
+    display: flex;
+    padding: 10px;
+}
+
+.text2 {
+    margin-left: 10px;
+}
+
+.highlited {
+    position: absolute;
+    top:150.7px;
+    width: 63.43px; /* Adjust width as needed */
+    height: 113.68px; /* Adjust height as needed */
+    transform: rotate(139deg); /* Correct property for rotation */
+    background-color: #E8EFFC; /* Example color */
+    border-top-right-radius: 5px; /* Optional: Rounded top-right corner */
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+.high2 {
+    width:40.30px;
+    height:47.78px;
+    top:200.04px;
+    left:714px;
+    position: absolute;
+    border: 1px solid white;
+    z-index: 9;
+    margin-right: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.symbol {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    margin: 0;
+}
+
