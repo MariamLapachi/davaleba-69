@@ -4,56 +4,48 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #E8EFFC;
+    background-color: hsl(219, 77%, 95%);
     opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     color: #86939E;
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 6;
 }    
 
 h1 {
-    top:100.75px;
-    position: absolute;
+    text-align: center;
+    margin-top:100px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .box1 {
+    position: relative;
     width:296.55px;
     height:354.21px;
-    top:200.04px;
-    left:135.47px;
-    position: absolute;
     background-color: white;
     padding: 20px;
-    justify-content: center;
-    z-index: 2;
 }
 
 .box2 {
+    position: relative;
     width:296.55px;
     height:354.21px;
-    top:200.04px;
-    left:456.73px;
-    position: absolute;
     padding: 20px;
-    background-color: white;
-    z-index: 3;
+    background-color: white;  
+    border: 1px solid #58678B;
 }
 
 .box3 {
+    position: relative;
     width:296.55px;
     height:354.21px;
-    top:200.04px;
-    left:777.99px;
-    position: absolute;
     padding: 20px;
     background-color: white;
-    z-index: 5;
 }
 
 h2 {
@@ -108,40 +100,11 @@ input {
     margin-left: 10px;
 }
 
-.highlited {
-    position: absolute;
-    top:150.7px;
-    width: 63.43px; /* Adjust width as needed */
-    height: 113.68px; /* Adjust height as needed */
-    transform: rotate(139deg); /* Correct property for rotation */
-    background-color: #E8EFFC; /* Example color */
-    border-top-right-radius: 5px; /* Optional: Rounded top-right corner */
-    left: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-}
-
-.high2 {
-    width:40.30px;
-    height:47.78px;
-    top:200.04px;
-    left:714px;
-    position: absolute;
-    border: 1px solid white;
-    z-index: 9;
-    margin-right: 0px;
-    margin-top: 0px;
-    display: flex;
-    justify-content: flex-end; /* Align items to the right */
-    align-items: flex-start; /* Align items to the top */
-}
-
 .symbol {
     position: absolute;
-    top: 2px;
-    right: 2px;
-    margin: 0;
+    right: 10px; 
+    top: 5px; 
 }
+
+
 
